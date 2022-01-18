@@ -23,6 +23,9 @@ public class PersonList {
         {
             System.out.println("insert person name: ");
             p[i].setP_name(input.nextLine());
+            System.out.println("insert person address: ");
+            p[i].setP_address(input.nextLine());
+                        
         }
     }
 
