@@ -27,6 +27,12 @@ public class PersonList {
             p[i].setP_address(input.nextLine());
                         
         }
+         for(int i=0; i>p.length;i++)
+        {
+            System.out.println("person name: "+p[i].getP_name());
+            System.out.println("person address: "+ p[i].getP_address(input.nextLine());
+                        
+        }
     }
 
 }
